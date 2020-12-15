@@ -1,0 +1,12 @@
+# Editor configuration, see http://editorconfig.org
+root = true
+
+[*.{ts, scss}] #arquivos que devem seguir as regras
+charset = utf-8
+indent_style = space
+indent_size = 2
+insert_final_newline = true # adicionar linhas em branco no final dos arquivos
+trim_trailing_whitespace = true #Apagar os espaços em brancos no final de cada linha
+
+[*.md]
+indent_size = false

@@ -1,0 +1,115 @@
+.app__background {
+  height: 100%;
+}
+
+//BLOCK CONTENT LAYOUT - HEADER
+.main {
+  padding: 24px 0;
+}
+
+.header__main {
+  margin-top: 16px;
+  position: relative;
+}
+
+//BLOCK BUTTON BACK - CONTENT LAYOUT
+.button__back {
+  display: inline-block;
+  clear: both;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 19px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #114b73;
+  margin-bottom: 16px;
+  border-bottom: 2px solid transparent;
+
+  &:not([href]):not([tabindex]):hover,
+  &:not([href]):not([tabindex]):focus {
+    border-bottom: 2px solid #114b73;
+  }
+
+  .button__icon {
+    display: inline-block;
+    margin-right: 8px;
+  }
+}
+
+//BLOCK HEADER - CONTENT LAYOUT
+.header__title--h1,
+.header__title--h2,
+.header__title--h3,
+.header__title--h4,
+.header__title--h5 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  color: #8954ba;
+}
+
+.header__title--h1 {
+  font-size: 28px;
+}
+
+.header__title--h2 {
+  font-size: 25px;
+}
+
+.header__title--h3 {
+  font-size: 23px;
+}
+
+.header__title--h4 {
+  font-size: 21px;
+}
+
+.header__title--h5 {
+  font-size: 19px;
+}
+
+.header__subject {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 19px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #003e69;
+}
+
+.example-radio-group {
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 18px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #08446e;
+}
+
+.example-radio-button {
+}
+
+.content {
+  min-height: 70.7vh;
+}
+
+.footer {
+  float: left;
+  width: 100%;
+  height: 45px;
+  margin-top: 20px;
+  left: 0;
+  bottom: 0;
+  line-height: 45px;
+  background: #0066b1;
+  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+}

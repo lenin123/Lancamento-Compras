@@ -1,0 +1,10 @@
+<div class="container-breadcrumbs container-breadcrumbs-{{tagPagina}}">
+  <div class="titulo-bradcrumb">{{tituloPagina}}</div>
+  <div class="navegacao-bradcrumb">
+    <ul class="navegacao-ul">
+      <li class="item-navegacao-li item-navegacao-{{tagPagina}}-li" *ngFor="let itemNavegacao of navegacao">
+        <a  (click)="resetarSubMenus()" routerLink="{{itemNavegacao.link}}" routerLinkActive="item-navegacao-a-ativo" class="item-navegacao-a">{{itemNavegacao.titulo}}</a>
+      </li>
+    </ul>
+  </div>
+</div>
